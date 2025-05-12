@@ -34,7 +34,7 @@ cloudinary.config({
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: 'http://localhost',
+    origin: 'http://localhost:5000',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
